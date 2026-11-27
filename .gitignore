@@ -1,0 +1,18 @@
+# Security & Secrets (NEVER commit keys or credentials)
+*.pem
+*.key
+.env
+envfile.txt
+
+# Python Virtual Environments & Bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
